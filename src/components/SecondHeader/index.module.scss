@@ -1,0 +1,39 @@
+.card{
+display: flex;
+width: fit-content;
+flex-direction:row;
+padding: 15px;
+color: rgb(58, 58, 57);
+border: 1px solid rgb(221, 214, 214);
+border-radius: 5px;
+margin-right: 5px;
+background-color: white;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.div{
+display:flex;
+flex-direction: row;
+width:80% ;
+padding: 0px 30px;
+overflow-x: auto
+
+}
+@media screen and (max-width: 768px) {
+.card{
+
+padding: 10px;
+
+}
+.card:hover{
+    cursor: pointer;
+}
+   .div{
+
+width:90% ;
+
+}
+    
+}

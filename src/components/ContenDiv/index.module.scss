@@ -1,0 +1,22 @@
+.Section{
+width: 80%;
+height: 100vh;
+
+}
+
+.btn{
+    width: fit-content;
+    border: none;
+    background-color: aquamarine;
+    color: rgb(49, 3, 87);
+    padding: 7px;
+}
+@media screen and (max-width: 720px) {
+
+    .Section{
+width: 100%;
+height: 100vh;
+}
+
+    
+}

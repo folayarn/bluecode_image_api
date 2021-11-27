@@ -1,0 +1,21 @@
+.list{
+    width: 100%;
+    height: fit-content;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-bottom: 20px;
+}
+
+.active{
+    border: 1px solid rgb(228, 207, 207);
+    color: rgb(31, 36, 34);
+    padding: 10px;
+    border-radius: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+    height: fit-content;
+margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.Section{
+height: fit-content;
+display: flex;
+flex-direction: column;
+background: rgba($color: aliceblue, $alpha: 0.1);
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .sidebar{
+    display:none;
+}
+
+    
+}
