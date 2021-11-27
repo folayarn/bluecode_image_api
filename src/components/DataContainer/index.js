@@ -36,6 +36,12 @@ const DataContainer = () => {
                     <span style={{width:'100%', margin:'45% 45%', color:'red' }}>Error Occured</span>
                     
                     </div>): (
+<>
+                        {data.length < 1?(<div style={{ width:'100%' }}>
+                    
+                    <span style={{width:'100%', margin:'45% 45%', color:'red' }}>No Record Found</span>
+                    
+                    </div>): (
                         <div className={classes.Section}>
                 {data.map(item => {
                     return (
@@ -81,6 +87,8 @@ const DataContainer = () => {
                                 </div>
                             </div>
                         </div>
+)
+                        </>
                         
                     )
                         
