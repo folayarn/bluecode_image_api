@@ -87,17 +87,18 @@ const DataContainer = () => {
                                 </div>
                             </div>
                         </div>
-)
-                        </>
+
+                      
                         
                     )
                         
                     
-                  
-    })}
+      }
+    )}
             </div>
 
-                    )}
+                    )
+}
 
             </>)}
             
